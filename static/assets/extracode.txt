@@ -1,0 +1,105 @@
+<div class="col-4 col-12-medium">
+
+								<!-- Box -->
+									<section class="box feature">
+										<a href="#" class="image featured"><img src="images/waterfalls.jpg" alt="" /></a>
+										<div class="inner">
+											<br>
+												<h2>Waterfalls</h2>
+												<p>"I took my family on October 21st of last year and had such a great experience. I recommend to all thrillseekers" @Miranda20 </p>
+												
+												<br>
+												<button type="button">Write a Comment</button>
+												</br>
+											</header>
+											<p></p>
+										</div>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<!-- Features row 2 -->
+				<div id="features-wrapper">
+					<div class="container">
+						<div class="row">
+							<div class="col-4 col-12-medium">
+
+								<!-- Box -->
+									<section class="box feature">
+										<a href="#" class="image featured"><img src="images/hiking.jpg" alt="" /></a>
+										<section class="inner">
+											<header>
+												<h2>Hiking Trails</h2>
+												<p></p>
+											</header>
+											<p>"The trails is super relaxing"</p>
+											<br>
+											<button type="button">Write a Comment</button>
+											</section>
+
+											</
+										</div>
+									</section>
+
+							</div>
+							<div class="col-4 col-12-medium">
+
+								<!-- Box -->
+									<section class="box feature">
+										<a href="#" class="image featured"><img src="images/picnic.jpg" alt="" /></a>
+										<div class="inner">
+											<header>
+												<h2>Picnic</h2>
+												<p>comments</p>
+											</header>
+											<p>The trails is super relaxing</p>
+											<button type="button">Write a Comment</button>
+										</div>
+									</section>
+
+							</div>
+							<div class="col-4 col-12-medium">
+
+								<!-- Box -->
+									<section class="box feature">
+										<a href="#" class="image featured"><img src="images/camping.jpg" alt="" /></a>
+										<div class="inner">
+											<header>
+												<h2>Camping</h2>
+												<p>Commments</p>
+											</header>
+											<p>The Trail is super engaging</p>
+											<button type="button">Write a Comment</button>
+										</div>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+                <div class="col-4 col-12-medium">
+
+								<!-- Box -->
+									<section class="box feature">
+										<a href="#" class="image featured"><img src="images/biking.jpg" alt="" /></a>
+										<div class="inner">
+											<header>
+												<h2>Bike Trails</h2>
+												<p>Maybe here as well I think</p>
+											</header>
+											<p></p>
+											<button type="button">Write a Comment</button>
+										</div>
+									</section>
+
+							</div>
+
+
+                            col-4 col-12-medium

@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<!--
+	Verti by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Comment List</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css')}}" />
+        <noscript><link rel="stylesheet" href="{{ url_for('static', filename='assets/css/fontawesome-all.min.css')}}" /></noscript>
+	</head>
+	<body class="is-preload no-sidebar">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<header id="header" class="container">
+
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href="index.html">Outdoor Thrills</a></h1>
+								<span>by Team 9</span>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+
+									<!-- <li><a href="index.html">Welcome</a></li> -->
+									<!-- <li>Welcome</li> -->
+								
+									<li class="current">Welcome {{user.first_name}} {{user.last_name}}</li>
+									<li><a href="/userdashboard">Dashboard</a></li>
+									<li><a href="">Logout</a></li>
+									
+							</nav>
+
+					</header>
+				</div>
+
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div class="container">
+						<div id="content">
+
+							<!-- Content -->
+								<article>
+
+									<div class="container">
+										<div class="left primary">
+
+                                            <h2>View a Comment</h2>
+											<h3>Location:</h3>
+                                            <p>{{comment.location}}</p>
+                                            <h3>Description:</h3>
+                                            <p>{{comment.description}}</p>
+
+											
+	
+									
+										</div>
+								</article>
+
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+			<div id="footer-wrapper">
+				<footer id="footer" class="container">
+					<div class="row">
+						<div class="col-3 col-6-medium col-12-small">
+
+							<!-- Links -->
+								<section class="widget links">
+									<h3>Most Popular Articles</h3>
+									<ul class="style2">
+										<li><a href="#">Outdoor Activites in Nebraska</a></li>
+										<li><a href="#">Montana- America's Best Kept Secret</a></li>
+										<li><a href="#">Niagra Falls</a></li>
+										<li><a href="#">Top 50 Best Travel Destinations</a></li>
+										<li><a href="#">Best Seasons to Travel</a></li>
+									</ul>
+								</section>
+
+						</div>
+						<div class="col-3 col-6-medium col-12-small">
+
+							<!-- Links -->
+								<section class="widget links">
+									<h3>National Parks</h3>
+									<ul class="style2">
+										<li><a href="#">Yellowstone National Park </a></li>
+										<li><a href="#"></a>Yosemite Park</a></li>
+										<li><a href="#">Grand Canyon National Park</a></li>
+										<li><a href="#">Glacier National Park</a></li>
+										<li><a href="#">Zion National Park</a></li>
+									</ul>
+								</section>
+
+						</div>
+						<div class="col-3 col-6-medium col-12-small">
+
+							<!-- Links -->
+								<section class="widget links">
+									<h3>Survival Tricks</h3>
+									<ul class="style2">
+										<li><a href="#">Building a Fire</a></li>
+										<li><a href="#">Locate a Food Source</a></li>
+										<li><a href="#">Finding Clean Water Sources</a></li>
+										<li><a href="#">How to Signal a Rescue Team</a></li>
+										<li><a href="#">How to Survive a Bear Attack</a></li>
+									</ul>
+								</section>
+
+						</div>
+					
+
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Contact -->
+									<section class="widget contact">
+										<h3>Contact Us</h3>
+										<ul>
+											<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+											<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+											<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+											<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+										</ul>
+										<p>1234 Fictional Road<br />
+										Nashville, TN 00000<br />
+										(800) 555-0000</p>
+									</section>
+
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<div id="copyright">
+									<ul class="menu">
+										<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+
+			</div>
+
+		<!-- Scripts -->
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

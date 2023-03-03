@@ -1,0 +1,357 @@
+<!DOCTYPE HTML>
+<!--
+	Verti by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+<!-- User Templates-- User is already logged into this page -->
+<html>
+	<head>
+		<title>Outdoor Thrills</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css')}}" />
+        <noscript><link rel="stylesheet" href="{{ url_for('static', filename='assets/css/fontawesome-all.min.css')}}" /></noscript>
+
+    </head>
+	<body class="is-preload homepage">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<header id="header" class="container">
+
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href="index.html">Outdoor Thrills</a></h1>
+								<span>by Team 9 </span>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li class="current">Welcome {{user.first_name}} {{user.last_name}}</li>
+									<li class="current"><a href="/comment_list">Current Comments</a></li>
+									<li><a href="/logout">Logout</a></li>
+									<!-- <li class="current"><a href="index.html">Welcome</a></li> -->
+
+									<li>
+										<!-- <a href="#">Dropdown</a> -->
+										<ul>
+											<li><a href="#"></a></li>
+											<li><a href="#"></a></li>
+											<li>
+												<a href="#"></a>
+												<ul>
+													<li><a href="#"></a></li>
+													<li><a href="#"></a></li>
+													<li><a href="#"></a></li>
+													<li><a href="#"></a></li>
+												</ul>
+											</li>
+											<li><a href="#">Welcome User</a></li>
+										</ul>
+									</li>
+									<!-- <li><a href="loginandregistration.html">Login/Registration</a></li> -->
+									<!-- <li><a href="right-sidebar.html">Right Sidebar</a></li>
+									<li><a href="no-sidebar.html">No Sidebar</a></li> -->
+								</ul>
+							</nav>
+
+					</header>
+				</div>
+
+			<!-- Banner -->
+				<div id="banner-wrapper">
+					<div id="banner" class="box container">
+						<div class="row">
+							<div class="col-7 col-12-medium">
+								<h2>Find your Favorite Outdoor Activity</h2>
+								<p>Write a comment below</p>
+
+							</div>
+							<div class="col-5 col-12-medium">
+								<!-- <ul>
+									<li><a href="#" class="button large icon solid fa-arrow-circle-right">Create your Account Today</a></li>
+									<li><a href="#" class="button alt large icon solid fa-question-circle">More info</a></li>
+								</ul> -->
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Features -->
+				<div id="features-wrapper">
+					<div class="container">
+						<div class="row">
+							<div class="col-4 col-12-medium">
+
+								<!-- Box -->
+									<!-- <section class="box feature">
+										<a href="#" class="image featured"><img src="images/biking.jpg" alt="" /></a>
+										<div class="inner">
+											<header>
+												<h2>Bike Trails</h2>
+												<p>Maybe here as well I think</p>
+											</header>
+											<p></p>
+											<button type="button">Write a Comment</button>
+										</div>
+									</section> -->
+
+							</div>
+							<div class="col-4 col-12-medium">
+
+								<!-- Box -->
+									<section class="box feature">
+										<a href="#" class="image featured"><img src="static/images/climbing.jpg" alt="" /></a>
+										<div class="inner">
+											<header>
+												<h2>Mountain Climbing</h2>
+												<p>"Yosemite National Park is the safest park i've ever visited" - @jeffbate22</p>
+
+												<br>
+												<form action="/new_comment" method="get"><button type="submit">Leave a Comment</button></form>
+											    </br>
+											</header>
+											<p></p>
+										</div>
+									</section>
+
+							</div>
+							<div class="col-4 col-12-medium">
+
+								<!-- Box -->
+									<!-- <section class="box feature">
+										<a href="#" class="image featured"><img src="images/waterfalls.jpg" alt="" /></a>
+										<div class="inner">
+											<br>
+												<h2>Waterfalls</h2>
+												<p>"I took my family on October 21st of last year and had such a great experience. I recommend to all thrillseekers" @Miranda20 </p>
+												
+												<br>
+												<button type="button">Write a Comment</button>
+												</br>
+											</header>
+											<p></p>
+										</div>
+									</section> -->
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<!-- Features row 2 -->
+				<div id="features-wrapper">
+					<div class="container">
+						<div class="row">
+							<div class="col-4 col-12-medium">
+
+								<!-- Box -->
+									<!-- <section class="box feature">
+										<a href="#" class="image featured"><img src="images/hiking.jpg" alt="" /></a>
+										<section class="inner">
+											<header>
+												<h2>Hiking Trails</h2>
+												<p></p>
+											</header>
+											<p>"The trails is super relaxing"</p>
+											<br>
+											<button type="button">Write a Comment</button>
+											</section> -->
+
+											<!-- </ -->
+										</div>
+									</section>
+
+							</div>
+							<div class="col-4 col-12-medium">
+
+								<!-- Box -->
+									<!-- <section class="box feature">
+										<a href="#" class="image featured"><img src="images/picnic.jpg" alt="" /></a>
+										<div class="inner">
+											<header>
+												<h2>Picnic</h2>
+												<p>comments</p>
+											</header>
+											<p>The trails is super relaxing</p>
+											<button type="button">Write a Comment</button>
+										</div>
+									</section> -->
+
+							</div>
+							<div class="col-4 col-12-medium">
+
+								<!-- Box -->
+									<!-- <section class="box feature">
+										<a href="#" class="image featured"><img src="images/camping.jpg" alt="" /></a>
+										<div class="inner">
+											<header>
+												<h2>Camping</h2>
+												<p>Commments</p>
+											</header>
+											<p>The Trail is super engaging</p>
+											<button type="button">Write a Comment</button>
+										</div>
+									</section> -->
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+
+</div>
+<div class="col-4 col-12-medium">
+
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div class="container">
+						<div class="row gtr-200">
+							<div class="col-4 col-12-medium">
+
+								<!-- Sidebar -->
+									<div id="sidebar">
+										<section class="widget thumbnails">
+											<h3>Interesting stuff</h3>
+											<div class="grid">
+												<div class="row gtr-50">
+													<div class="col-6"><a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a></div>
+													<div class="col-6"><a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a></div>
+													<div class="col-6"><a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a></div>
+													<div class="col-6"><a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a></div>
+												</div>
+											</div>
+											<a href="#" class="button icon fa-file-alt">More</a>
+										</section>
+									</div>
+
+							</div>
+							<div class="col-8 col-12-medium imp-medium">
+
+								<!-- Content -->
+									<div id="content">
+										<section class="last">
+											<h2>Important Safety Information</h2>
+											<p>10 Essential Wilderness Survival Tips </p>
+												Consider these essential survival skills to improve your chances of success in the wilderness:
+												
+												<p>
+												1. Build a fire. Use dry leaves, pine needles, or small pieces of wood to start a fire that can enable you to cook a meal, stay warm, or ward off wild animals from your shelter site. Use waterproof matches or a firestarter to spark tinder and kindling.
+												2. Craft a short-term survival shelter. Depending on the climate, weather, terrain, and available resources, you might want to construct a temporary refuge to shield you from the elements until you encounter your rescuers. You should insulate your shelter to help you retain valuable body heat in cold weather or provide sun protection to minimize your dehydration in a hot, arid climate.
+												3. Establish a hierarchy of priorities. A stranded hiker or someone forced into a survival scenario should work diligently to address the “rule of threes”: The average human can survive three hours without shelter, three days without water, and three weeks without food. These timelines are somewhat subjective to the individual and the climate, yet the rule of threes can provide a template to guide actions in the field.
+												4. Find a clean water source. A human can survive only about three days without water, so finding and collecting drinking water should be one of your priorities in a survival scenario. Use a water filter, iodine tablets, or a fire to boil the water. However you choose to purify water, it’s imperative to do it in adequate amounts to meet your hydration needs.
+												
+
+												</p>
+											<a href="#" class="button icon solid fa-arrow-circle-right">Continue Reading</a>
+										</section>
+									</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<div id="footer-wrapper">
+					<footer id="footer" class="container">
+						<div class="row">
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Links -->
+								<section class="widget links">
+									<h3>Most Popular Articles</h3>
+									<ul class="style2">
+										<li><a href="#">Outdoor Activites in Nebraska</a></li>
+										<li><a href="#">Montana- America's Best Kept Secret</a></li>
+										<li><a href="#">Niagra Falls</a></li>
+										<li><a href="#">Top 50 Best Travel Destinations</a></li>
+										<li><a href="#">Best Seasons to Travel</a></li>
+									</ul>
+								</section>
+
+						</div>
+						<div class="col-3 col-6-medium col-12-small">
+
+							<!-- Links -->
+								<section class="widget links">
+									<h3>National Parks</h3>
+									<ul class="style2">
+										<li><a href="#">Yellowstone National Park </a></li>
+										<li><a href="#"></a>Yosemite Park</a></li>
+										<li><a href="#">Grand Canyon National Park</a></li>
+										<li><a href="#">Glacier National Park</a></li>
+										<li><a href="#">Zion National Park</a></li>
+									</ul>
+								</section>
+
+						</div>
+						<div class="col-3 col-6-medium col-12-small">
+
+							<!-- Links -->
+								<section class="widget links">
+									<h3>Survival Tricks</h3>
+									<ul class="style2">
+										<li><a href="#">Building a Fire</a></li>
+										<li><a href="#">Locate a Food Source</a></li>
+										<li><a href="#">Finding Clean Water Sources</a></li>
+										<li><a href="#">How to Signal a Rescue Team</a></li>
+										<li><a href="#">How to Survive a Bear Attack</a></li>
+									</ul>
+								</section>
+
+						</div>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Contact -->
+									<section class="widget contact last">
+										<h3>Contact Us</h3>
+										<ul>
+											<li><a href="static/images/nationalpark2.jpg" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="static/images/nationalpark3.jpg" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+											<li><a href="static/images/nationalpark4.jpg" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+											<li><a href="static/images/rock climbing.jpg" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+											<li><a href="static/images/climbing.jpg" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+										</ul>
+										<p>1234 Fictional Road<br />
+										Nashville, TN 00000<br />
+										(800) 555-0000</p>
+									</section>
+
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<div id="copyright">
+									<ul class="menu">
+										<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+
+			</div>
+
+		<!-- Scripts -->
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
